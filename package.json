@@ -1,6 +1,6 @@
 {
   "name": "expression-webcomponent",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/expression-webcomponent.js",
   "module": "dist/expression-webcomponent.js",
   "type": "module",
