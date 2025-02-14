@@ -1,5 +1,6 @@
 
 import { defineConfig } from 'vite'
+import dts from 'vite-plugin-dts'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -10,6 +11,7 @@ export default defineConfig({
     preTransformRequests: false,
   },
   build: {
+    sourcemap: true,
     lib: {
       entry: 'src/index.ts',
       name: 'expression-webcomponent',
@@ -28,4 +30,7 @@ export default defineConfig({
       },
     },
   },
+  plugins: [
+    dts(),
+  ],
 })
