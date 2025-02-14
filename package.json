@@ -1,6 +1,5 @@
 {
   "name": "expression-webcomponent",
-  "private": true,
   "version": "0.0.2",
   "main": "dist/expression-webcomponent.js",
   "type": "module",
