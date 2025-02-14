@@ -18,6 +18,8 @@ jobs:
       - run: npm ci
       # - run: npm test
       - run: npm run build
+      - name: List dist directory
+        run: ls -la dist
 
   publish-npm:
     needs: build
