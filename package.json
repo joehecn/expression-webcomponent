@@ -2,6 +2,7 @@
   "name": "expression-webcomponent",
   "private": true,
   "version": "0.0.1",
+  "main": "dist/expression-webcomponent.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -34,8 +35,7 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/expression-webcomponent.js",
-      "require": "./dist/expression-webcomponent.umd.cjs"
+      "import": "./dist/expression-webcomponent.js"
     }
   }
 }
