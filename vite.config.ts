@@ -13,7 +13,7 @@ export default defineConfig({
   build: {
     sourcemap: true,
     lib: {
-      entry: 'src/index.ts',
+      entry: 'src/expression-webcomponent.ts',
       name: 'expression-webcomponent',
       formats: ['es'],
       fileName: 'expression-webcomponent',
