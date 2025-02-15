@@ -13,10 +13,12 @@ export default defineConfig({
   build: {
     sourcemap: true,
     lib: {
-      entry: 'src/expression-webcomponent.ts',
-      name: 'expression-webcomponent',
+      entry: {
+        'ExpressionWebcomponent': 'src/index.ts',
+        'expression-webcomponent': 'src/expression-webcomponent.ts'
+      },
+      name: 'ExpressionWebcomponent',
       formats: ['es'],
-      fileName: 'expression-webcomponent',
     },
     rollupOptions: {
       external: ['mathjs', 'penner', 'pixi-viewport', 'pixi.js'],

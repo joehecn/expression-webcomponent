@@ -35,6 +35,7 @@
     "vite-plugin-dts": "^4.5.0"
   },
   "exports": {
+    ".": "./dist/index.js",
     "./expression-webcomponent.js": "./dist/expression-webcomponent.js"
   }
 }
